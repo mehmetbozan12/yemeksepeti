@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding:0;
+    top: 0;
+}
+.yemeksepeti__sigin-header{
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    align-items: center;
+}
+.yemeksepeti__sigin-header-logo{
+    margin-left:7rem ;
+
+}
+.yemeksepeti__sigin-header-logo-h4{
+    font-size: 20px;
+    color: #ea004b;
+    font-family: Open Sans,Arial,sans-serif;
+}
+
+.yemeksepeti__sigin-header-language{
+    margin-right: 8rem;
+    display:flex;
+    gap: 10px;
+    
+    align-items: center;
+}
+.yemeksepeti__header-language-icon-caret{
+    color: #ea004b;
+}
+.yemeksepeti__sigin-home{
+   padding-left:35rem;
+   padding-top:7rem;
+   background-color: #f7f7f7;
+   height: 36rem;
+}
+
+.yemeksepeti__sigin-home-container{
+    height: 24rem;
+    width: 370px;
+    box-shadow: 0 0.1rem 0.5rem rgba(0,0,0,.15);
+    padding-left: 3rem;
+    padding-top: 2rem;
+    border-radius: 1rem;
+}
+.yemeksepeti__sigin-home-container-header-h4{
+    font-size: 25px;
+    
+}
+.yemeksepeti__sigin-home-container-header-p{
+    font-size: 15px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    
+}
+.yemeksepeti__sigin-home-button{
+    margin-top: 1rem;
+    
+}
+
+.yemeksepeti__sigin-home-btn1{
+    width: 20rem;
+    height: 2.5rem;
+    background-color: #1877f2;
+    color: white;
+    border: 1px solid  #1877f2 ;
+    font-weight:600;
+    font-size: 15px;
+    border-radius: 5px;
+    gap: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+.yemeksepeti__sigin-home-btn1:hover{
+    background-color:#2442AF ;
+
+}
+.yemeksepeti__sigin-home-btn1-facebook{
+    margin-right: 2rem;
+    padding-left: 1rem;
+    font-size: 20px;
+}
+.yemeksepeti__sigin-home-btn2{
+    width: 20rem;
+    height: 2.5rem;
+    border-radius: 5px;
+    border: 1px solid rgb(195, 194, 194);
+    background-color: white;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    padding-left: 1rem;
+  
+}
+
+.yemeksepeti__sigin-home-btn1-google{
+    
+    padding-left: -1rem;
+    width: 1.1rem;
+    background-color: #fff;
+    color: white;
+
+}
+
+.yemeksepeti__sigin-home-btn2:hover{
+    background-color:rgb(237, 241, 246);
+    border: rgb(237, 241, 246);
+
+}
+
+.yemeksepeti__sigin-home-paragraph{
+    padding-left: 8rem;
+    padding-top: 1rem;
+}
+.yemeksepeti__sigin-home-btn{
+    display:flex;
+    flex-direction: column;
+    
+    
+}
+.yemeksepeti__sigin-home-btn_1{
+    height: 3rem;
+    margin-top: 1rem;
+    border-radius: 6px;
+    background-color: #ea004b;
+    border-color: #ea004b;
+    color: white;
+    border: 1px solid;
+    width: 20rem;
+    font-weight: bold;
+
+}
+.yemeksepeti__sigin-home-btn_1:hover{
+    background-color: #c40541;
+    transition: .3s;
+}
+.yemeksepeti__sigin-home-btn_2{
+    height:3rem ;
+    margin-top: 1rem;
+    border-radius: 6px;
+    border-color: #ea004b;
+    color: #ea004b;
+    border: 1px solid;
+    background-color: #fff;
+    width: 20rem;
+    font-weight: bold;
+
+}
+.yemeksepeti__sigin-home-btn_2:hover{
+    background-color: rgb(250, 224, 228);
+    border-color: rgb(250, 224, 228);
+    transition: .3s;
+    
+}

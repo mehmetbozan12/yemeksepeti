@@ -1,0 +1,530 @@
+/* yemeksepeti__header start*/
+.yemeksepeti__header{
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100%;
+
+}
+.yemeksepeti__header-logo{
+    padding-left: 7rem;
+    
+}
+
+.yemeksepeti__header-logo-h1{
+    color: #fa0050;
+    font-size: 20px;
+    font-family: Open Sans,Arial,sans-serif;
+}
+.yemeksepeti__header-buttons-language{
+
+    margin-right: 8rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+
+}
+
+.yemeksepeti__header-button-sigin {
+    margin-right: 2rem;
+    color: #fa0050;
+    border: 1px solid #fa0050;
+    border-radius: 5px;
+    height: 32px;
+    width: 5.8rem;
+    font-size: 14px;
+    font-weight: 550;
+    background-color: white;
+    
+ 
+}
+.yemeksepeti__header-button-sigin:hover{
+    transform: scale(1.15);
+    background-color: #d46a8c37;
+    transition:.2s;
+   
+   
+    
+}
+.yemeksepeti__header-button-sigup{
+    color: white;
+    border: 1px solid #fa0050;
+    border-radius: 5px;
+    height: 32px;
+    width: 5rem;
+    font-size: 15px;
+    background-color: #FA0050;
+   
+    
+}
+.yemeksepeti__header-button-sigup:hover{
+    transform: scale(1.15);
+    background-color: #c8023a;
+    transition:.2s;
+}
+.yemeksepeti__header-language{
+    padding-left: 3rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 7rem;
+    overflow: hidden;
+    position: relative;
+}
+.yemeksepeti__header-language-icon-world{
+
+   font-size:22px;  
+}
+
+.yemeksepeti__header-language-h4{
+    font-weight: 500;
+    font-size: 16px;
+
+}
+
+.yemeksepeti__header-language-icon-caret{
+   margin-right: 2rem;
+  
+}
+
+.yemeksepeti__header-shopping{
+    padding-left: 2rem;
+
+}
+/* yemeksepeti__header finish*/
+
+/* yemeksepeti__menu start*/
+
+.yemeksepeti__menu{
+    background-color: #f7f7f7;
+    height: 38rem;
+    width:100%;
+}
+.yemeksepeti__menu-adress{
+    display: flex;
+    
+}
+
+
+.yemeksepeti__menu-adress-h1-btn{
+    margin-left:7rem;
+    margin-top: 10rem;
+  
+ 
+}
+
+.yemeksepeti__menu-adress-p{
+    font-size: 2.5rem;
+
+ 
+}
+.yemeksepeti__menu-adress-input-button{
+ margin-top: 3rem;
+  width: 45rem;
+  height: 4.5rem;
+  box-shadow: 0 0.3rem 2rem rgba(0,0,0,.1);
+  border-radius: 1rem;
+  
+}
+
+.yemeksepeti__menu-adress-input{
+    margin-top: 0.7rem;
+    margin-left: 1rem;
+    width: 35rem;
+    height: 2.8rem;
+    border-radius: 5px;
+    padding-left: 1rem;
+    font-size: 15px;
+    border: 1px solid #cfc4c7;
+}
+.yemeksepeti__menu-adress-btn{
+    height: 2.8rem;
+    border-radius: 5px;
+    margin-left: 1rem;
+    width: 5.5rem;
+    background-color:#fa0050;
+    border :1px solid #fa0050 ;
+    color: white;
+}
+.yemeksepeti__menu-adress-btn:hover{
+     
+    transform: scale(1.15);
+    background-color: #c8023a;
+    transition:.2s;
+
+}
+
+.yemeksepeti__menu-adress-gps{
+  
+}
+.yemeksepeti__menu-adress-image{
+  margin-left: -6rem;
+  
+     
+
+}
+.yemeksepeti__menu-adress-img{
+    height: 38rem;
+    width: 45rem;
+}
+
+
+.business__partner-p{
+    margin-left: 7rem;
+    margin-top: 2rem;
+    padding-bottom: 3rem;
+    font-size: 32px;
+}
+.business__partner-description{
+    height: 28rem;
+    width: 39rem;
+    margin-left: 27rem;
+    padding-left: 1rem;
+    padding-top: .5rem;
+    border-radius: 10px;
+    box-shadow: 0 0.3rem 2rem rgba(0,0,0,.1);
+    position: absolute;
+    top: 69rem;   
+    transform: translateX(-50%);
+    background-color: white;
+
+}
+
+.business__partner-p1{
+ font-size: 25px;
+ margin-top: 2rem;
+ 
+}
+.business__partner-p2{
+    font-size: 17px;
+    margin-top: 1rem;
+}
+.business__partner-btn{
+    width: 6rem;
+    height: 3rem;
+    border-radius: 8px;
+    background-color: #FA0050;
+    color: #f7f7f7;
+    border-color: #FA0050;
+    border: 1px;
+    font-size: 15px;
+    margin-top: 1rem;
+}
+
+.business__partner-btn:hover{
+    transform: scale(1.15);
+    background-color: #c8023a;
+    transition:.2s;
+}
+
+.business__city{
+
+    margin-top: 25rem;
+    margin-left:7rem ;
+
+}
+.business__city-p{
+    font-size: 35px;
+    margin-bottom: 3rem;
+
+
+}
+.business__city-image{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    
+
+}
+.businnes__city-img{
+    border-radius: 10px;
+    transition:0.3s ease;
+   
+  
+}
+
+
+.business__city-image-img-name{
+    height: 3rem;
+    width: 6rem;
+    margin-left: -15.3rem;
+    border-radius: 10px;
+    border: 1px solid  #f7f7f7;
+    position: absolute;
+    top: 116rem;   
+    transform: translateX(-50%);
+    background-color: white;
+    font-size: 20px;
+    
+}
+.business__city-image-img-name-izmir{
+    height: 3rem;
+    width: 6rem;
+    margin-left: -15.3rem;
+    border-radius: 10px;
+    border: 1px solid  #f7f7f7;
+    position: absolute;
+    top: 130.5rem;   
+    transform: translateX(-50%);
+    background-color: white;
+    font-size: 20px;
+    
+}
+.yemeksepeti__footer{
+    height: 155rem;
+}
+
+.yemeksepeti__footer-p1{
+    margin-left: 7rem;
+    font-size: 32px;
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+   
+}
+
+.yemeksepeti__footer-app{
+    border-radius: 15px;
+    height: 22rem;
+    width: 81rem;
+    margin-left: 7rem;
+    background-color: #FA0050;
+    color: white;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    display: flex;
+}
+.yemeksepeti__footer-p2{
+    
+    font-size: 22px;
+  
+}
+.yemeksepeti__footer-qr-p{
+    display: flex;
+    gap: 30px;
+    width: 25rem;
+    align-items: center;
+}
+.yemeksepeti__footer-qr{
+  border:1px solid white;
+  height: 5.5rem;
+  width: 22rem;
+  border-radius:5px ;
+  
+
+}
+
+.yemeksepeti__footer-qr-img{
+    margin-top: .5rem;
+    margin-left: .2rem;
+    width: 4.5rem;
+    height: 4.5rem;
+   
+    
+}
+.yemeksepeti__footer-p3{
+    font-size: 17px;
+  
+}
+
+
+.yemeksepeti__footer-telephone-img{
+    margin-top: -10rem;
+    margin-left: 3rem;
+
+}
+.yemeksepeti__footer-download-btn{
+    display:flex;
+    margin-top: 2rem;
+    gap:1rem;
+}
+
+.yemeksepeti__footer-paragrahp{
+    padding-left: 8rem;
+    margin-top: 10rem;
+    color:hsla(0, 5%, 50%, 0.967);
+
+}
+.yemeksepeti__footer-paragrahps{
+    padding-left: 8rem;
+    color:hsla(0, 5%, 50%, 0.967);
+    line-height: 2rem;
+ 
+
+}
+.yemeksepeti__footer-h5{
+    padding-left: 8rem;
+    font-size: 20px;
+    line-height: 3rem;
+}
+.yemeksepeti__footer-list{
+    list-style: none;
+    padding-left: 8rem;
+    font-size:16px;
+    color:hsla(0, 5%, 50%, 0.967);
+    line-height: 2rem;
+}
+.yemeksepeti__footer-h3{
+    padding-left: 8rem;
+    padding-top: 1rem;
+}
+
+.yemeksepeti__footer-hr1{
+    margin-top: 8rem;
+    margin-left: 8rem;
+    width: 80rem;
+}
+.yemeksepeti__footer-socialmedia{
+    display: flex;
+    align-items: center;
+    justify-content:space-between ;
+    height: 6rem;
+}
+.yemeksepeti__footer-yemeksepeti-logo{
+    padding-left: 8rem;
+    padding-top: 1rem;
+    color: #FA0050;
+}
+.yemeksepeti__footer-socialmedya-logo{
+    margin-right: 7rem;
+    display: flex;
+    gap: 20px;
+    font-size: 23px;
+    align-items: center;
+}
+
+.yemeksepeti__media-logo{
+    height: 2rem;
+    width: 2rem;
+    padding-left: 8px;
+    padding-top: 4px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    
+}
+.yemeksepeti__media-logo:hover,
+.socialmedia-logo-link:hover{
+    border-color: #c8023a;
+    color: #c8023a;
+
+}
+
+
+.socialmedia-logo-link{
+    color:hsla(0, 5%, 50%, 0.967);
+    text-decoration: none;
+}
+
+.yemeksepeti__footer-check{
+    color:#FA0050;
+}
+
+.yemeksepeti__footer-hr2{
+    margin-top: 2rem;
+    margin-left: 8rem;
+    width: 80rem;
+}
+.yemeksepeti__general-information{
+    display: flex;
+    margin-left: 6rem;
+    gap:9rem;
+    margin-top: 2rem;
+    
+}
+.yemeksepeti__general-information-list{
+    list-style: none;
+    line-height: 2rem;
+  
+
+}
+.yemeksepeti__general-information-list-link{
+    text-decoration: none;
+    color:hsla(0, 5%, 50%, 0.967);
+
+}
+.yemeksepeti__general-information-list-link:hover{
+    color: #FA0050;
+}
+.yemeksepeti__footer-QR{
+    margin-left: 8rem;
+
+}
+.yemeksepeti__footer-Qr-etbis{
+    width: 6rem;
+    margin-left:2rem ;
+}
+.yemeksepeti__footer-hr3{
+    margin-top: 3rem;
+    margin-left: 8rem;
+    width: 80rem;
+    color:hsla(0, 5%, 50%, 0.967);
+}
+.yemeksepeti__footer-kitchen{
+
+    padding-left: 8rem;
+    font-size: 20px;
+    margin-top: 2rem;
+
+}
+.yemeksepeti__footer-city-menu{
+    display: flex;
+    gap:9em;
+    margin-left: 8rem;
+    margin-top: 3rem;
+}
+.yemeksepeti__footer-city-name{
+   font-size: 15px;
+}
+
+.yemeksepeti__footer-city-name-link{
+    text-decoration: none;
+    color:hsla(0, 5%, 50%, 0.967);
+
+}
+.yemeksepeti__footer-city-name-link:hover{
+    color: #FA0050;
+}
+
+.yemeksepeti__footer-menu-name{
+    list-style: none;
+   float: left;
+   color:hsla(0, 5%, 50%, 0.967);
+   line-height: 30px;
+    
+    
+}
+.yemeksepeti__footer-menu-name-link{
+    text-decoration: none;
+    color:hsla(0, 5%, 50%, 0.967);
+    
+}
+
+.yemeksepeti__footer-menu-name-link:hover{
+    color: #FA0050;
+}
+
+
+.yemeksepeti__footer-othercities-h5{
+    margin-top: 2rem;
+    padding-left: 8rem;
+    font-size: 20px;  
+}
+
+.yemeksepeti__footer-hr4{
+    margin-top: 14rem;
+    margin-left: 8rem;
+    width: 80rem;
+  
+}
+.yemeksepeti__footer-finish{
+    display: flex;
+    margin-left: 8rem;
+    padding-bottom:3rem;
+    height: 12rem;
+}
+.yemeksepeti__footer-yemekcom-logo{
+   width: 7rem;
+   height: 3rem;
+}

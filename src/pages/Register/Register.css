@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding:0;
+    top: 0;
+}
+.yemeksepeti__sigin-header{
+    display: flex;
+    justify-content: space-between;
+    height: 4rem;
+    align-items: center;
+}
+.yemeksepeti__sigin-header-logo{
+    margin-left:7rem ;
+
+}
+.yemeksepeti__sigin-header-logo-h4{
+    font-size: 20px;
+    color: #ea004b;
+    font-family: Open Sans,Arial,sans-serif;
+}
+
+.yemeksepeti__sigin-header-language{
+    margin-right: 8rem;
+    display:flex;
+    gap: 10px;
+    
+    align-items: center;
+}
+.yemeksepeti__header-language-icon-caret{
+    color: #ea004b;
+}
+.yemeksepeti__sigin-home{
+   padding-left:35rem;
+   padding-top:7rem;
+   background-color: #f7f7f7;
+   height: 36rem;
+}
+
+
+.yemeksepeti__register-menu{
+    
+    background-color: #f7f7f7;
+    width: 96rem;
+    height: 40.5rem;
+    padding-top: 2rem;
+   
+   
+    
+}
+
+.yemeksepeti__register-container{
+    margin-left: 35rem;
+    margin-top: 8rem;
+    box-shadow: 0 0.1rem 0.5rem rgba(0,0,0,.15);
+    border: 1px solid #dcdcdc;
+    width: 25rem;
+    height: 23rem;
+    background-color: white;
+}
+.yemeksepeti__register-container-img{
+    margin-left: 1.5rem;
+    margin-top: 1.5rem;
+    width: 6rem;
+}
+
+.yemeksepeti__register-container-text{
+    padding-left: 2rem;
+    padding-top: .5rem;
+}
+.yemeksepeti__register-container-text-h4{
+    font-size: 22px;
+}
+
+.yemeksepeti__register-container-text-p{
+    padding-top: .5rem;
+
+}
+.yemeksepeti__register-container-form{
+    flex-direction: column;
+    display: flex;
+}
+
+.yemeksepeti__register-container-form-input{
+    width: 20.4rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+    height: 3rem;
+    padding-left:1rem;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc
+}
+.custom-button {
+    width: 21.5rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    height: 3rem;
+    padding-left:1rem;
+    border-radius: 5px;
+    border: 1px solid #dcdcdc;
+    color:white;
+    background-color: #dcdcdc;
+    cursor: not-allowed; /* İmleci bir el işareti yapmaz, kullanıcıya tıklanamaz olduğunu gösterir. */
+    transition:background-color 0.3s;
+}
+
+.custom-button.hoverable {
+    cursor: pointer;
+  }
+  
+  .custom-button.hoverable:hover {
+    background-color: rgb(0, 2, 139);
+  }
+
+
+
+
+  
+  @media (max-width: 960px) {
+  
+    .yemeksepeti__sigin-header-language{
+       display: none;
+
+
+    }
+  
+}
+
+@media (max-width: 768px) {
+    /* Burada geniş ekran için stil kurallarını tanımlayın */
+
+    .yemeksepeti__register-meu{
+        width: 20rem;
+        margin: 0 auto;
+    }
+
+    .yemeksepeti__register-container {
+        margin:auto 3rem;
+        margin-top: 3rem;
+      
+    
+    }
+  }
